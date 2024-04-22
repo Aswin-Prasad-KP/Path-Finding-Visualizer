@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Node Connection</title>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+	
+	.container {
+	  position: relative;
+	  height: 99%;
+	}
+	
+	#map {
+		height: 99%;
+	}
+
+	#canvas {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+
+    .node {
+      position: absolute;
+      background-color: #ffcc00;
+      border: 1px solid #333;
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      text-align: center;
+      line-height: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img id="map" src="map.png">
+  </div>
+  <script src="script.js"></script>
+</body>
+
+
+
+</html>
